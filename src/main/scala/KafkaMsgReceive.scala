@@ -7,7 +7,7 @@ import org.apache.spark.{SparkConf}
 /**
  * Created by Siori on 15/05/22.
  */
-object Kafka1 {
+object KafkaMsgReceive {
   def main(args: Array[String]): Unit = {
 
     // https://spark.apache.org/docs/latest/quick-start.html
