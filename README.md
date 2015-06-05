@@ -11,5 +11,18 @@ http://qiita.com/AKB428/items/50d8c597c8c6e0f4fb1e
 
 ## メッセージ受信
 
-KafkaMsgReceive
+### KafkaMsgReceive
 
+test topicのメッセージを受信する
+
+## メッセージ送信
+
+### KafkaSendMsg
+
+SparkStreamingのKafkaUtilはメッセージ受信機構しかないのでここではKafkaのネイティブクライアントでるJavaAPIをScalaで実行する
+
+127.0.0.1:9092に対してメッセージを送信
+
+``run [topic] [msg]``
+
+``run test 1:やはり俺の青春ラブコメはまちがっている。``
