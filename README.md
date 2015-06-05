@@ -19,9 +19,9 @@ test topicのメッセージを受信する
 
 ### KafkaSendMsg
 
-SparkStreamingのKafkaUtilはメッセージ受信機構しかないのでここではKafkaのネイティブクライアントでるJavaAPIをScalaで実行する
+SparkStreamingのKafkaUtilはメッセージ受信機構しかないのでここではKafkaのネイティブクライアントであるJavaAPIをScalaで実行する
 
-127.0.0.1:9092に対してメッセージを送信
+metadata.broker 127.0.0.1:9092に対してメッセージを送信
 
 ``run [topic] [msg]``
 
