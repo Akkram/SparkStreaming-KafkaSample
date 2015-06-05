@@ -29,6 +29,8 @@ object KafkaSendMsg {
     val data = new KeyedMessage[String,String](topic,message)
     producer.send(data)
 
+    producer.close()
+
   }
 
 }
